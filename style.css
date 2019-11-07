@@ -75,6 +75,7 @@ p {
 
 hr {
 	color: #05FF00;
+	border-top: 1px dashed;
 }
 .navbar a {
 	font-family: "Roboto Mono";
