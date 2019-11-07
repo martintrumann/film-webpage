@@ -77,3 +77,9 @@ hr {
 	text-shadow: -2px 0 #05FF00, 0 2px #05FF00, 2px 0 #05FF00, 0 -2px #05FF00;
 }
 
+
+.castnames {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
