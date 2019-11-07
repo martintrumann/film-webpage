@@ -24,7 +24,7 @@ body {
 	background-image: url("img/neo.png");
 	background-repeat: no-repeat;
 	background-position: right bottom;
-	background-size: 40%;
+	background-size: 38%;
 }
 h1 {
 	font-family: "Roboto Mono";
@@ -56,7 +56,15 @@ p {
 	width: 800px;
 }
 
-nav a {
+.navbar {
+	display: flex;
+	justify-content: space-around;
+}
+
+hr {
+	color: #05FF00;
+}
+.navbar a {
 	font-family: "Roboto Mono";
 	font-style: normal;
 	font-weight: normal;
@@ -69,25 +77,3 @@ nav a {
 	text-shadow: -2px 0 #05FF00, 0 2px #05FF00, 2px 0 #05FF00, 0 -2px #05FF00;
 }
 
-navbar {
-	position: absolute;
-	width: 1195px;
-	height: 64px;
-	left: 120px;
-	top: 149px;
-}
-
-navbar a {
-	position: absolute;
-
-	font-family: Roboto Mono;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 48px;
-	line-height: 56px;
-	text-align: center;
-
-	color: #FFFFFF;
-
-	border: 1px solid #05FF00;
-}
