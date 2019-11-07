@@ -33,11 +33,12 @@ h1 {
 
 	color: #FFFFFF;
 
-	text-shadow: -2px 0 #05FF00, 0 2px #05FF00, 2px 0 #05FF00, 0 -2px #05FF00;
+	text-shadow: #05FF00 0px 0px 2px,   #05FF00 0px 0px 2px,   #05FF00 0px 0px 2px, #05FF00 0px 0px 2px,   #05FF00 0px 0px 2px,   #05FF00 0px 0px 2px;
 
 }
 
 p {
+	display: inline-block;
 	font-family: "Roboto Mono", Monospace;
 	font-style: normal;
 	font-weight: normal;
@@ -46,7 +47,7 @@ p {
 	
 	color: #FFFFFF;
 
-	text-shadow: -2px 0 #05FF00, 0 2px #05FF00, 2px 0 #05FF00, 0 -2px #05FF00;
+	text-shadow: #05FF00 0px 0px 2px,   #05FF00 0px 0px 2px,   #05FF00 0px 0px 2px, #05FF00 0px 0px 2px,   #05FF00 0px 0px 2px,   #05FF00 0px 0px 2px;
 }
 
 .maintext {
