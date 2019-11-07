@@ -4,6 +4,22 @@ html, body{
 	background-color: #000000;
 }
 
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("img/background.gif");
+}
+
+.container {
+	background-color: rgba(0, 0, 0, 0.7);
+	border: 5px solid #05FF00;
+	border-radius: 30px;
+	height: 790px;
+	width: 1200px;
+	padding: 10px;
+}
+
 h1 {
 	font-family: "Roboto Mono";
 	font-style: normal;
