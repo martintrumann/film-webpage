@@ -27,6 +27,7 @@ body {
 	background-size: 38%;
 }
 h1 {
+	display: inline;
 	font-family: "Roboto Mono";
 	font-style: normal;
 	font-weight: bold;
@@ -44,16 +45,14 @@ h1 {
 	font-style: normal;
 	font-weight: bold;
 	font-size: 21px;
-	line-height: 169px;
 	
 	color: #FFFFFF;
 	
-	text-shadow: #05FF00 0px 0px 2px,   #05FF00 0px 0px 2px,   #05FF00 0px 0px 2px, #05FF00 0px 0px 2px,   #05FF00 0px 0px 2px,   #05FF00 0px 0px 2px;
+	text-shadow: #05FF00 0px 0px 1px,   #05FF00 0px 0px 1px,   #05FF00 0px 0px 1px, #05FF00 0px 0px 1px,   #05FF00 0px 0px 1px,   #05FF00 0px 0px 1px;
 
 }	
 	
 p {
-	display: inline-block;
 	font-family: "Roboto Mono", Monospace;
 	font-style: normal;
 	font-weight: normal;
@@ -85,14 +84,39 @@ hr {
 	line-height: 56px;
 	text-align: center;
 
+	text-decoration: none;
+
 	color: #FFFFFF;
 
-	text-shadow: -2px 0 #05FF00, 0 2px #05FF00, 2px 0 #05FF00, 0 -2px #05FF00;
+	text-shadow: #05FF00 0px 0px 2px,   #05FF00 0px 0px 2px,   #05FF00 0px 0px 2px, #05FF00 0px 0px 2px,   #05FF00 0px 0px 2px,   #05FF00 0px 0px 2px;
 }
 
 
 .castnames {
 	display: flex;
+	margin-top: 50px;
 	justify-content: center;
 	align-content: center;
+}
+
+.castnames2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+img {
+	width: 170px;
+	padding: 5px;
+}
+
+.pics1 {
+	display: flex;
+	flex-direction: column;
+	margin-right: 30px;
+}
+
+.pics2 {
+	margin-left: 30px;
+	display: flex;
+	flex-direction: column;
 }
