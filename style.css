@@ -30,7 +30,7 @@ h1 {
 	font-weight: bold;
 	font-size: 144px;
 	line-height: 169px;
-	
+
 	color: #FFFFFF;
 
 	text-shadow: -2px 0 #05FF00, 0 2px #05FF00, 2px 0 #05FF00, 0 -2px #05FF00;
@@ -49,6 +49,10 @@ p {
 	text-shadow: -2px 0 #05FF00, 0 2px #05FF00, 2px 0 #05FF00, 0 -2px #05FF00;
 }
 
+.maintext {
+	width: 800px;
+}
+
 nav a {
 	font-family: "Roboto Mono";
 	font-style: normal;
@@ -56,6 +60,8 @@ nav a {
 	font-size: 48px;
 	line-height: 56px;
 	text-align: center;
+
+	color: #FFFFFF;
 
 	text-shadow: -2px 0 #05FF00, 0 2px #05FF00, 2px 0 #05FF00, 0 -2px #05FF00;
 }
