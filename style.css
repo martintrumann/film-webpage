@@ -1,0 +1,41 @@
+html, body{
+	margin: 0;
+	height: 100%;
+	background-color: #000000;
+}
+
+h1 {
+	font-family: "Roboto Mono";
+	font-style: normal;
+	font-weight: bold;
+	font-size: 144px;
+	line-height: 169px;
+	
+	color: #FFFFFF;
+
+	text-shadow: -2px 0 #05FF00, 0 2px #05FF00, 2px 0 #05FF00, 0 -2px #05FF00;
+
+}
+
+p {
+	font-family: "Roboto Mono", Monospace;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 31px;
+	line-height: 36px;
+	
+	color: #FFFFFF;
+
+	text-shadow: -2px 0 #05FF00, 0 2px #05FF00, 2px 0 #05FF00, 0 -2px #05FF00;
+}
+
+nav a {
+	font-family: "Roboto Mono";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	line-height: 56px;
+	text-align: center;
+
+	text-shadow: -2px 0 #05FF00, 0 2px #05FF00, 2px 0 #05FF00, 0 -2px #05FF00;
+}
