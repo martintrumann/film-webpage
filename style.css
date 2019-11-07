@@ -66,3 +66,11 @@ nav a {
 
 	text-shadow: -2px 0 #05FF00, 0 2px #05FF00, 2px 0 #05FF00, 0 -2px #05FF00;
 }
+
+navbar {
+	position: absolute;
+	width: 1195px;
+	height: 64px;
+	left: 120px;
+	top: 149px;
+}
