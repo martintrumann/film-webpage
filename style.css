@@ -18,6 +18,10 @@ body {
 	height: 790px;
 	width: 1200px;
 	padding: 10px;
+	background-image: url("img/neo.png");
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-size: 40%;
 }
 
 h1 {
