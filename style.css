@@ -17,7 +17,8 @@ body {
 	border-radius: 30px;
 	height: 790px;
 	width: 1200px;
-	padding: 10px;
+	padding: 30px;
+	padding-top: 10px;
 }
 
 .main {
